@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url('https://media.discordapp.net/attachments/1129298931747135570/1171799725025001586/image.png?ex=65707389&is=655dfe89&hm=e81f2ad3ff1b07b406316357cbb69e0467c6da8ad85e4d89ac619d5666a30036&=&format=webp') center/cover no-repeat;
+}
+
+header {
+  background-color: #000;
+  padding: 20px;
+  border-bottom: 2px solid #fff;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  text-align: center;
+}
+
+.logo {
+  max-width: 150px;
+}
+
+.login-container {
+  background-color: #000;
+  opacity: 0.8;
+  border-radius: 15px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-top: 80px;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+}
+
+.login-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+}
+
+.login-button {
+  background-color: #4287f5;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #3366cc;
+}
